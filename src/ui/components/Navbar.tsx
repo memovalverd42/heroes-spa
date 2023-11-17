@@ -14,6 +14,7 @@ export const Navbar = () => {
         navigate('/login', {
             replace: true
         });
+        
     }
 
     return (

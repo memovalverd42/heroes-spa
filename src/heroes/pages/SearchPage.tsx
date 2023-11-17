@@ -61,6 +61,7 @@ export const SearchPage = () => {
           <div 
             className="alert alert-primary animate__animated animate__fadeIn" 
             style={{ display: showSarch ? '' : 'none' }}
+            aria-label="DivSearchAlert"
           >
             Search a Hero
           </div>
@@ -68,6 +69,7 @@ export const SearchPage = () => {
           <div 
             className="alert alert-danger animate__animated animate__fadeIn" 
             style={{ display: showError ? '' : 'none' }}
+            aria-label="DivDangerAlert"
           >
             No hero with <b>{ q }</b>
           </div>
